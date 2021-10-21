@@ -14,7 +14,7 @@
     }
     header li {
       list-style: none;
-      font-size: 1.3rem;
+      font-size: 100%;
       color: floralwhite;
       float: right;
       border-left: solid 0.05rem white;
