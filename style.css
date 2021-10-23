@@ -2,7 +2,7 @@
   @media screen and (min-width: 375px) {
     * {
       margin: 0;
-      padding: 0;
+/*       padding: 0; */
     }
     header {
       width: 100%;
@@ -133,7 +133,7 @@
   @media screen and (min-width: 960px) {
     *{
       margin: 0;
-      padding:0;
+/*       padding:0; */
     }
     header {
       width: 100%;
