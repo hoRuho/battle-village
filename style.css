@@ -1,6 +1,6 @@
-  @charset "utf-8";
-  @media screen and (min-width: 375px) {
-    html,
+@charset "utf-8";
+@media screen and (min-width: 375px) {
+  html,
   body,
   div,
   span,
@@ -124,380 +124,399 @@
     border-collapse: collapse;
     border-spacing: 0;
   }
-    header {
-      width: 100%;
-      height: 3rem;
-      background-color: turquoise;
-      padding-right: 0.8rem;
-      font-family: "Yomogi", cursive;
-      margin-top: 0%;
-      padding-top: 0%;
-    }
-    header li {
-      list-style: none;
-      font-size: 100%;
-      color: floralwhite;
-      float: right;
-      border-left: solid 0.05rem white;
-
-      /* border-right: solid 2px white; */
-    }
-    header li a {
-      text-decoration: none;
-      color: white;
-      position: relative;
-
-      padding: 0px 1rem;
-    }
-    * {
-      box-sizing: border-box;
-    }
-    .right-list1 {
-      border-right: solid 1px white;
-    }
-    .title-image {
-      position: relative;
-      width: 1fr;
-      height: auto;
-      background-image: url(https://pakutaso.cdn.rabify.me/shared/img/thumb/hirota_sabanna.jpg.webp?d=1420);
-      background-size: cover;
-    }
-    .title-logo {
-      background: rgba(0, 0, 0, 0.5);
-      width: 100%;
-      height: 40rem;
-      padding-top: 15rem;
-      text-align: center;
-      color: aliceblue;
-      font-size: 6vw;
-      font-family: "Yomogi", cursive;
-    }
-    .introduction {
-      width: 70%;
-      float: none;
-      height: auto;
-      margin: 0 auto;
-      margin-top: 3rem;
-      /* padding-left: 1.5rem;
-      padding-right: 1.5rem; */
-      padding-bottom: 1.3rem;
-      box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.5);
-    }
-    .logo {
-      padding: 1.5rem;
-      border-bottom: 4px turquoise solid;
-      margin-left: 1.5rem;
-      width: 13rem;
-      height: 5rem;
-      font-size: 2rem;
-      box-shadow: 0 8px 7px -7px rgba(0, 0, 0, 0.5);
-      font-family: "Indie Flower", cursive;
-    }
-    .introduction ul li {
-      font-family: "Shippori Mincho B1", serif;
-      list-style: none;
-      font-size: 1.8rem;
-      padding: 1rem;
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    }
-    .introduction ul li p {
-      font-family: "Yomogi", cursive;
-      font-size: 1.3rem;
-
-      text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-    }
-    .right-list2 {
-      float: none;
-      margin: 0 auto;
-      margin-top: 3rem;
-
-      box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.5);
-      width: 70%;
-    }
-    .right-list2 h2 {
-      /* padding-left: 30px; */
-      border-bottom: 4px turquoise solid;
-      width: 7rem;
-      height: 1.9rem;
-      font-size: 1.3rem;
-      box-shadow: 0 8px 7px -7px rgba(0, 0, 0, 0.5);
-      font-family: "Indie Flower", cursive;
-      text-align: center;
-      margin-left: 1rem;
-    }
-    .right-list2 li a {
-      text-decoration: none;
-      font-family: "Yomogi", cursive;
-      padding: 10px;
-      color: black;
-      display: block;
-      width: 80%;
-      height: 50%;
-      /* border: black solid; */
-      font-size: 1.2rem;
-      /* animation-duration: 1.5s;
-      animation-timing-function: ease-in-out; */
-      transition: box-shadow 0.5s;
-    }
-    .right-list2 li {
-      list-style: none;
-      /* margin-top: 20px;
-      margin-bottom: 20px; */
-      border-radius: solid black;
-    }
-    .right-list2 li a:hover {
-      color: rgb(116, 113, 113);
-      box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-  @media screen and (min-width: 960px) {
-   html,
-  body,
-  div,
-  span,
-  applet,
-  object,
-  iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  blockquote,
-  pre,
-  a,
-  abbr,
-  acronym,
-  address,
-  big,
-  cite,
-  code,
-  del,
-  dfn,
-  em,
-  img,
-  ins,
-  kbd,
-  q,
-  s,
-  samp,
-  small,
-  strike,
-  strong,
-  sub,
-  sup,
-  tt,
-  var,
-  b,
-  u,
-  i,
-  center,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  tr,
-  th,
-  td,
-  article,
-  aside,
-  canvas,
-  details,
-  embed,
-  figure,
-  figcaption,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  output,
-  ruby,
-  section,
-  summary,
-  time,
-  mark,
-  audio,
-  video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-  }
-  /* HTML5 display-role reset for older browsers */
-  article,
-  aside,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  hgroup,
-  menu,
-  nav,
-  section {
-    display: block;
-  }
   body {
-    line-height: 1;
+    margin: 0;
   }
-  ol,
-  ul {
+  header {
+    width: 100%;
+    height: 3rem;
+    background-color: turquoise;
+    padding-right: 0.8rem;
+    font-family: "Yomogi", cursive;
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  header li {
     list-style: none;
-  }
-  blockquote,
-  q {
-    quotes: none;
-  }
-  blockquote:before,
-  blockquote:after,
-  q:before,
-  q:after {
-    content: "";
-    content: none;
-  }
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-    header {
-      width: 100%;
-      height: 3rem;
-      background-color: turquoise;
-      padding-right: 0.8rem;
-      font-family: "Yomogi", cursive;
-      margin-top: 0%;
-      padding-top: 0%;
-    }
-    header li {
-      list-style: none;
-      font-size: 1.3rem;
-      color: floralwhite;
-      float: right;
-      border-left: solid 0.05rem white;
+    font-size: 100%;
+    color: floralwhite;
+    float: right;
+    border-left: solid 0.05rem white;
 
-      /* border-right: solid 2px white; */
-    }
-    header li a {
-      text-decoration: none;
-      color: white;
-      position: relative;
+    /* border-right: solid 2px white; */
+  }
+  header li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: block;
+    padding: 15px 1rem;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .right-list1 {
+    border-right: solid 1px white;
+  }
+  .title-image {
+    position: relative;
+    width: 1fr;
+    height: auto;
+    background-image: url(https://pakutaso.cdn.rabify.me/shared/img/thumb/hirota_sabanna.jpg.webp?d=1420);
+    background-size: cover;
+  }
+  .title-logo {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 40rem;
+    padding-top: 15rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: "Yomogi", cursive;
+  }
+  .introduction {
+    width: 70%;
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3rem;
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
+    padding-bottom: 1.3rem;
+    padding: 1.3rem 2rem;
+    box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.5);
+  }
+  .logo {
+    padding: 1.5rem;
+    display: block;
+    text-align: center;
+    border-bottom: 4px turquoise solid;
+    /* margin-left: 2.2rem; */
+    width: 12rem;
+    height: 5rem;
+    font-size: 2rem;
+    box-shadow: 0 8px 7px -7px rgba(0, 0, 0, 0.5);
+    font-family: "Indie Flower", cursive;
+  }
+  .introduction ul li {
+    font-family: "Shippori Mincho B1", serif;
+    list-style: none;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  .introduction ul li p {
+    font-family: "Yomogi", cursive;
+    font-size: 1.5rem;
+    display: block;
+    margin-top: 2rem;
 
-      padding: 0px 1rem;
-    }
-    * {
-      box-sizing: border-box;
-    }
-    .right-list1 {
-      border-right: solid 1px white;
-    }
-    .title-image {
-      position: relative;
-      width: 1fr;
-      height: auto;
-      background-image: url(https://pakutaso.cdn.rabify.me/shared/img/thumb/hirota_sabanna.jpg.webp?d=1420);
-      background-size: cover;
-    }
-    .title-logo {
-      background: rgba(0, 0, 0, 0.5);
-      width: 100%;
-      height: 40rem;
-      padding-top: 15rem;
-      text-align: center;
-      color: aliceblue;
-      font-size: 6vw;
-      font-family: "Yomogi", cursive;
-    }
-    .introduction {
-      width: 40rem;
-      height: auto;
-      margin-left: 10rem;
-      margin-top: 3rem;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
-      padding-bottom: 1.3rem;
-      margin-bottom: auto;
-      box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.5);
-      float: left;
-    }
-    .logo {
-      padding: 1.5rem;
-      border-bottom: 4px turquoise solid;
-      width: 13rem;
-      height: 5rem;
-      font-size: 2rem;
-      box-shadow: 0 8px 7px -7px rgba(0, 0, 0, 0.5);
-      font-family: "Indie Flower", cursive;
-    }
-    .introduction ul li {
-      font-family: "Shippori Mincho B1", serif;
-      list-style: none;
-      font-size: 1.8rem;
-      padding: 1rem;
-      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    }
-    .introduction ul li p {
-      font-family: "Yomogi", cursive;
-      font-size: 1.3rem;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  }
+  .right-list2 {
+    float: none;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 1rem;
 
-      text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
-    }
-    .right-list2 {
-      float: right;
-      margin-right: 10rem;
-      margin-top: 3rem;
-      box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.5);
-      width: 25%;
-    }
-    .right-list2 h2 {
-      /* padding-left: 30px; */
-      border-bottom: 4px turquoise solid;
-      width: 7rem;
-      height: 1.9rem;
-      font-size: 1.3rem;
-      box-shadow: 0 8px 7px -7px rgba(0, 0, 0, 0.5);
-      font-family: "Indie Flower", cursive;
-      text-align: center;
-      margin-left: 1rem;
-    }
-    .right-list2 li a {
-      text-decoration: none;
-      font-family: "Yomogi", cursive;
-      padding: 10px;
-      color: black;
-      display: block;
-      width: 80%;
-      height: 50%;
-      /* border: black solid; */
-      font-size: 1.2rem;
-      /* animation-duration: 1.5s;
+    box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.5);
+    width: 70%;
+  }
+  .right-list2 h2 {
+    /* padding-left: 30px; */
+
+    border-bottom: 4px turquoise solid;
+    width: 7rem;
+    height: 1.9rem;
+    font-size: 1.3rem;
+    box-shadow: 0 8px 7px -7px rgba(0, 0, 0, 0.5);
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    /* margin: 2rem 1rem; */
+  }
+  .right-list2 li a {
+    text-decoration: none;
+    font-family: "Yomogi", cursive;
+    padding: 20px 10px;
+    color: black;
+    display: block;
+    width: 80%;
+    height: 50%;
+
+    /* border: black solid; */
+    font-size: 1.2rem;
+    /* animation-duration: 1.5s;
     animation-timing-function: ease-in-out; */
-      transition: box-shadow 0.5s;
-    }
-    .right-list2 li {
-      list-style: none;
-      /* margin-top: 20px;
+    transition: box-shadow 0.5s;
+  }
+  .right-list2 li {
+    list-style: none;
+    /* margin-top: 20px;
     margin-bottom: 20px; */
-      border-radius: solid black;
-    }
-    .right-list2 li a:hover {
-      color: rgb(116, 113, 113);
-      box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
-    }
+    border-radius: solid black;
+  }
+  .right-list2 li a:hover {
+    color: rgb(116, 113, 113);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media screen and (min-width: 960px) {
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: "";
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  body {
+    margin: 0;
+    padding-bottom: 100px;
+  }
+  header {
+    width: 100%;
+    height: 3rem;
+    background-color: turquoise;
+    padding-right: 0.8rem;
+    font-family: "Yomogi", cursive;
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  header li {
+    list-style: none;
+    font-size: 1.3rem;
+    color: floralwhite;
+    float: right;
+    border-left: solid 0.05rem white;
+
+    /* border-right: solid 2px white; */
+  }
+  header li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: block;
+    padding: 13px 1rem;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .right-list1 {
+    border-right: solid 1px white;
+  }
+  .title-image {
+    position: relative;
+    width: 1fr;
+    height: auto;
+    background-image: url(https://pakutaso.cdn.rabify.me/shared/img/thumb/hirota_sabanna.jpg.webp?d=1420);
+    background-size: cover;
+  }
+  .title-logo {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 40rem;
+    padding-top: 15rem;
+    text-align: center;
+    color: aliceblue;
+    font-size: 6vw;
+    font-family: "Yomogi", cursive;
+  }
+  .introduction {
+    width: 40rem;
+    height: auto;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.3rem;
+    margin-bottom: auto;
+    box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.5);
+    float: left;
+  }
+  .logo {
+    padding: 1.5rem;
+    border-bottom: 4px turquoise solid;
+    width: 13rem;
+    height: 5rem;
+    font-size: 2rem;
+    box-shadow: 0 8px 7px -7px rgba(0, 0, 0, 0.5);
+    font-family: "Indie Flower", cursive;
+  }
+  .introduction ul li {
+    font-family: "Shippori Mincho B1", serif;
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 1rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  .introduction ul li p {
+    font-family: "Yomogi", cursive;
+    font-size: 1.3rem;
+
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  }
+  .right-list2 {
+    float: right;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.5);
+    width: 25%;
+  }
+  .right-list2 h2 {
+    /* padding-left: 30px; */
+    border-bottom: 4px turquoise solid;
+    width: 7rem;
+    height: 1.9rem;
+    font-size: 1.3rem;
+    box-shadow: 0 8px 7px -7px rgba(0, 0, 0, 0.5);
+    font-family: "Indie Flower", cursive;
+    text-align: center;
+    margin-left: 1rem;
+  }
+  .right-list2 li a {
+    text-decoration: none;
+    font-family: "Yomogi", cursive;
+    padding: 10px;
+    color: black;
+    display: block;
+    width: 80%;
+    height: 50%;
+    /* border: black solid; */
+    font-size: 1.2rem;
+    /* animation-duration: 1.5s;
+  animation-timing-function: ease-in-out; */
+    transition: box-shadow 0.5s;
+  }
+  .right-list2 li {
+    list-style: none;
+    /* margin-top: 20px;
+  margin-bottom: 20px; */
+    border-radius: solid black;
+  }
+  .right-list2 li a:hover {
+    color: rgb(116, 113, 113);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.5);
   }
 }
